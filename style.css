@@ -1,0 +1,77 @@
+h1 {color: rgb(255, 88, 10);}
+
+.header 
+{
+    background-color: #4242ca;
+    display : flex;
+    justify-content: space-between;
+}
+.projects
+{
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+.youtube
+{display: flex;
+    justify-content: flex-end;
+ border: 2px rgb(255, 10, 10);
+ background-color: #ffff00;
+}
+
+.myname
+{
+ padding-left: 20px;
+}
+
+a:link 
+{
+   color: rgb(0, 0, 0); 
+   font-size: x-large;
+   text-decoration: none;
+}
+a:visited
+{
+    color: rgb(124, 46, 46);
+}
+
+.menu
+{
+  margin-top: 25px;
+  display: flex;
+}
+
+.menuitem
+{
+    margin-left : 20px;
+}
+
+.menuitem:hover
+{
+    border-bottom: solid rgb(0, 0, 0);
+}
+
+.items
+{
+    position: relative;
+}
+
+.items p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.items:hover p
+{
+    opacity: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.items:hover img
+{
+    opacity: .3;
+}
